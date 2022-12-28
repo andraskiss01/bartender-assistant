@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ak17apps.bartenderassistant">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".activity.BoardActivity"></activity>
+        <activity android:name=".activity.OrderActivity"></activity>
+        <activity android:name=".activity.NewBoardActivity"></activity>
+        <activity android:name=".activity.NewOrderWithCategoriesActivity"></activity>
+        <activity android:name=".activity.NewOrderWithSellingAmountsActivity"></activity>
+        <activity android:name=".activity.MaintenanceActivity"></activity>
+        <activity android:name=".activity.UnitActivity"></activity>
+        <activity android:name=".activity.UnitExchangeActivity"></activity>
+        <activity android:name=".activity.ItemActivity"></activity>
+        <activity android:name=".activity.CategoryActivity"></activity>
+        <activity android:name=".activity.SellingAmountActivity"></activity>
+        <activity android:name=".activity.CompositeItemActivity"></activity>
+        <activity android:name=".activity.ComponentActivity"></activity>
+        <activity android:name=".activity.NewUnitActivity"></activity>
+        <activity android:name=".activity.NewUnitExchangeActivity"></activity>
+        <activity android:name=".activity.NewItemActivity"></activity>
+        <activity android:name=".activity.NewCategoryActivity"></activity>
+        <activity android:name=".activity.NewSellingAmountActivity"></activity>
+        <activity android:name=".activity.NewCompositeItemActivity"></activity>
+        <activity android:name=".activity.NewComponentActivity"></activity>
+
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

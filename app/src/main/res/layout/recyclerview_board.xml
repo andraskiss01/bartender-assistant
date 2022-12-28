@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/off_white"
+    style="@style/product_item">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView_board_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark_grey"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_open"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_add_black_24dp" />
+
+        <Button
+            android:id="@+id/button_edit"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_edit_black_24dp" />
+
+        <Button
+            android:id="@+id/button_delete"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:drawableEnd="@drawable/ic_delete_black_24dp" />
+
+        <Button
+            android:id="@+id/button_tick"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="@string/tick" />
+    </LinearLayout>
+</LinearLayout>

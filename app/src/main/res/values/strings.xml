@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Bartender Assistant</string>
+    <string name="title_activity_main2">Items</string>
+
+    <string name="hint_product_name">Item name</string>
+    <string name="empty_not_saved_pname">Item not saved because it is empty.</string>
+
+    <string name="hint_product_description">Item description</string>
+    <string name="empty_not_saved_pdescription">Item not saved because it is empty.</string>
+
+    <string name="hint_product_quantity">Item quantity</string>
+    <string name="empty_not_saved_pquanntity">Item not saved because it is empty.</string>
+
+    <string name="button_save">Mentés</string>
+    <string name="maintenance">Karbantartás</string>
+    <string name="units">Mértékegységek</string>
+    <string name="items">Termékek</string>
+    <string name="categories">Kategóriák</string>
+    <string name="selling_amounts">Eladási mennyiségek</string>
+    <string name="composite_items">Kompozit termékek</string>
+    <string name="components">Komonensek</string>
+    <string name="tables">Asztalok</string>
+    <string name="new_table">Új Asztal</string>
+    <string name="edit_table">Asztal Szerkesztése</string>
+    <string name="new_unit">Új Mértékegység</string>
+    <string name="edit_unit">Mértékegység Szerkesztése</string>
+    <string name="name">Név</string>
+    <string name="products">Termékek</string>
+    <string name="new_item">Új Termék</string>
+    <string name="edit_item">Termék Szerkesztése</string>
+    <string name="stored_amount">Tárolt Mennyiség</string>
+    <string name="unit">Mértékegység</string>
+    <string name="sellable_individually">Egyedileg Értékesíthető</string>
+    <string name="max_amount">Maximális Mennyiség</string>
+    <string name="parent_category">Szülő Kategória</string>
+    <string name="edit_category">Kategória Szerkesztése</string>
+    <string name="new_category">Új Kategória</string>
+    <string name="amount">Mennyiség</string>
+    <string name="price">Ár</string>
+    <string name="category">Kategória</string>
+    <string name="item">Termék</string>
+    <string name="edit_selling_amount">Eladási Mennyiség Szerkesztése</string>
+    <string name="new_selling_amount">Új Eladási Mennyiség</string>
+    <string name="edit_composite_item">Kompozit Termék Szerkesztése</string>
+    <string name="new_composite_item">Új Kompozit Termék</string>
+    <string name="composite_item">Kompozit Termék</string>
+    <string name="edit_component">Komponens Szerkesztése</string>
+    <string name="new_component">Új Komponens</string>
+    <string name="orders">Rendelések</string>
+    <string name="orders_of">Rendelései</string>
+    <string name="new_order">Új Rendelés</string>
+    <string name="sum">Össz.</string>
+    <string name="selling_amount">Eladási Mennyiség</string>
+    <string name="save_data">Adatmentés</string>
+    <string name="load_data">Adatbetöltés</string>
+    <string name="equals">=</string>
+    <string name="unit_exchanges">Mértékegységváltások</string>
+    <string name="edit_unit_exchange">Mértékegységváltás szekesztése</string>
+    <string name="new_unit_exchange">Új Mértékegységváltás</string>
+    <string name="value">Érték</string>
+    <string name="amount_by_drink_card">Itallap Szerinti Mennyiség</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="tick">✓</string>
+    <string name="search">Keres</string>
+    <string name="clear">Törlés</string>
+</resources>

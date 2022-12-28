@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/center_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/unitsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/units"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/unitExchangesBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unit_exchanges"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/itemsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/items"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/categoriesBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/categories"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/sellingAmountsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/selling_amounts"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/compositeItemsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/composite_items"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:id="@+id/componentsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/components"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
